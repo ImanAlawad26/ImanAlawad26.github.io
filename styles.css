@@ -1,23 +1,50 @@
 body {
-  background-color: #f8f9fa;
+  background-color: #eef2f7;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-/* Header */
+/* 🔷 NICE HEADER */
 .hero {
-  padding: 50px;
-  background-color: #343a40;
+  background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
+  color: white;
+  padding: 60px;
 }
 
-/* HOME PAGE IMAGES (ALL SAME SIZE) */
+/* 🔷 HOME IMAGES (same size + luxury outline) */
 .home-img {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #3b82f6;
 }
 
-/* DETAIL PAGE IMAGES (ALL SAME SIZE) */
+/* 🔷 DETAIL IMAGES */
 .detail-img {
   width: 100%;
   height: 250px;
   object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #3b82f6;
+}
+
+/* 🔷 HOVER EFFECT (makes it look fancy) */
+.home-img:hover,
+.detail-img:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+/* 🔷 TEXT STYLING */
+h1 {
+  color: #1e3a8a;
+}
+
+h2 {
+  color: #2563eb;
+}
+
+h3 {
+  margin-top: 10px;
 }
