@@ -3,133 +3,98 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio | Home</title>
+  <title>Iman Alawad | Home</title>
 
-  <!-- Bootstrap CSS -->
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  />
-
-  <!-- Custom CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">My Portfolio</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Iman Alawad</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Hero -->
-  <header class="hero text-center text-white d-flex align-items-center">
-    <div class="container">
-      <h1 class="display-4 fw-bold">Welcome to My Portfolio</h1>
-      <p class="lead">Student • Web Designer • Future Developer</p>
-      <a href="portfolio.html" class="btn btn-primary btn-lg mt-3">View My Work</a>
+<!-- Hero -->
+<header class="hero text-white text-center d-flex align-items-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Iman Alawad</h1>
+    <p class="lead">Computer Science Student • Developer</p>
+
+    <div class="mt-3">
+      <a href="https://github.com/" target="_blank" class="btn btn-dark me-2">GitHub</a>
+      <a href="https://www.linkedin.com/in/imanalawad" target="_blank" class="btn btn-primary">LinkedIn</a>
     </div>
-  </header>
+  </div>
+</header>
 
-  <!-- About Section -->
-  <section class="container py-5">
-    <div class="row align-items-center">
+<!-- About -->
+<section class="container py-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h2>About Me</h2>
+      <p>
+        I am a Computer Science student with experience in software development,
+        data analysis, and building real-world applications. I enjoy creating
+        efficient solutions and working on technical projects that solve problems.
+      </p>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+        class="img-fluid rounded shadow home-img" />
+    </div>
+  </div>
+</section>
+
+<!-- Cards -->
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row g-4 text-center">
+
       <div class="col-md-6">
-        <h2>About Me</h2>
-        <p>
-          Hello! I am building my skills in web design and development. This website
-          shows my resume, portfolio work, and examples of projects I have created.
-        </p>
-        <p>
-          I enjoy creating clean, organized, and visually appealing websites that are
-          easy to use.
-        </p>
+        <div class="card shadow-sm h-100">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+            class="card-img-top card-img-fixed">
+          <div class="card-body">
+            <h3>Resume</h3>
+            <a href="resume.html" class="btn btn-outline-primary">View Resume</a>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6 text-center">
-        <img
-          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
-          alt="Laptop workspace"
-          class="img-fluid rounded shadow home-img"
-        />
+
+      <div class="col-md-6">
+        <div class="card shadow-sm h-100">
+          <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+            class="card-img-top card-img-fixed">
+          <div class="card-body">
+            <h3>Portfolio</h3>
+            <a href="portfolio.html" class="btn btn-outline-primary">View Work</a>
+          </div>
+        </div>
       </div>
+
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Quick Links -->
-  <section class="bg-light py-5">
-    <div class="container">
-      <div class="row text-center g-4">
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
-              class="card-img-top card-img-fixed"
-              alt="Resume image"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Resume</h3>
-              <p class="card-text">See my education, skills, and experience.</p>
-              <a href="resume.html" class="btn btn-outline-primary">Open Resume</a>
-            </div>
-          </div>
-        </div>
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2026 Iman Alawad</p>
+</footer>
 
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80"
-              class="card-img-top card-img-fixed"
-              alt="Portfolio image"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Portfolio</h3>
-              <p class="card-text">Explore projects and examples of my work.</p>
-              <a href="portfolio.html" class="btn btn-outline-primary">View Projects</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
-              class="card-img-top card-img-fixed"
-              alt="Professional links"
-            />
-            <div class="card-body">
-              <h3 class="card-title">Links</h3>
-              <p class="card-text">Connect with my work online.</p>
-              <a href="https://github.com/" target="_blank" class="btn btn-dark me-2">GitHub</a>
-              <a href="https://www.linkedin.com/" target="_blank" class="btn btn-primary">LinkedIn</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p class="mb-0">&copy; 2026 My Portfolio Website</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
