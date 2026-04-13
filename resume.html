@@ -5,52 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Iman Alawad | Resume</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand fw-bold" href="index.html">Iman Alawad</a>
-    <div class="navbar-nav ms-auto">
-      <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link active" href="resume.html">Resume</a>
-      <a class="nav-link" href="portfolio.html">Portfolio</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Iman Alawad</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="resume.html">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<section class="page-header text-white text-center">
-  <div class="container">
-    <h1>Resume</h1>
-  </div>
-</section>
+  <!-- Header -->
+  <section class="page-header text-white text-center">
+    <div class="container">
+      <h1 class="fw-bold">Resume</h1>
+      <p class="lead">Computer Science Student • Developer</p>
+    </div>
+  </section>
 
-<section class="container py-5">
-  <h2>Education</h2>
-  <p>Seattle Pacific University – Computer Science (2027)</p>
+  <!-- Content -->
+  <section class="container py-5">
 
-  <h2 class="mt-4">Skills</h2>
-  <ul>
-    <li>C++, Java, Python, C#, GitHub, Linux</li>
-    <li>Problem Solving, Collaboration, Communication</li>
-  </ul>
+    <!-- Objective -->
+    <div class="mb-5">
+      <h2>Objective</h2>
+      <p>
+        Computer Science junior with experience in data operations and software projects,
+        from real-time dashboards to automation tools. Skilled in troubleshooting,
+        multitasking, and collaboration, seeking an internship to apply technical expertise
+        and deliver impactful results.
+      </p>
+    </div>
 
-  <h2 class="mt-4">Experience</h2>
-  <p><strong>Optum</strong> – Data Specialist</p>
+    <!-- Education -->
+    <div class="mb-5">
+      <h2>Education</h2>
+      <p><strong>Seattle Pacific University</strong> – Seattle, WA</p>
+      <p>Bachelor of Science, Computer Science</p>
+      <p>Expected Graduation: June 2027</p>
+    </div>
 
-  <h2 class="mt-4">Projects</h2>
-  <ul>
-    <li>Java Billing System</li>
-    <li>Python Data Tool</li>
-    <li>Racing Dashboard (C++)</li>
-  </ul>
-</section>
+    <!-- Skills -->
+    <div class="mb-5">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Technical:</strong> C++, Java, C#, Python, GitHub, Visual Studio, Linux</li>
+        <li><strong>Core:</strong> Problem-Solving, Adaptability, Collaboration, Communication, Time Management</li>
+        <li><strong>Languages:</strong> Arabic, English</li>
+      </ul>
+    </div>
 
-<footer class="bg-dark text-white text-center py-3">
-  <p>&copy; 2026 Iman Alawad</p>
-</footer>
+    <!-- Experience -->
+    <div class="mb-5">
+      <h2>Work Experience</h2>
+      <p><strong>Optum</strong> – Data Entry & Lab Support Specialist (July 2023 – Jan 2025)</p>
+      <ul>
+        <li>Maintained and validated large datasets with high accuracy</li>
+        <li>Troubleshot system discrepancies to ensure reliable reporting</li>
+        <li>Managed multiple tasks under deadlines while collaborating with teams</li>
+      </ul>
+    </div>
 
+    <!-- Projects -->
+    <div class="mb-5">
+      <h2>Projects</h2>
+
+      <p><strong>Alderwood Water Project</strong></p>
+      <ul>
+        <li>Built a Java application with GUI to process billing data</li>
+        <li>Automated reporting and improved data accuracy</li>
+      </ul>
+
+      <p><strong>Python Data Tool</strong></p>
+      <ul>
+        <li>Used Pandas, NumPy, and Matplotlib for automation</li>
+        <li>Improved workflow efficiency by 30%</li>
+      </ul>
+
+      <p><strong>Falcon Racing Dashboard</strong></p>
+      <ul>
+        <li>Developing real-time telemetry dashboard in C++ (Raspberry Pi)</li>
+        <li>Displays speed, temperature, and fuel data</li>
+      </ul>
+    </div>
+
+    <!-- Activities -->
+    <div class="mb-5">
+      <h2>Activities</h2>
+      <ul>
+        <li>Falcon Racing Club – telemetry development</li>
+        <li>Developers Club – hackathons and coding challenges</li>
+      </ul>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2026 Iman Alawad</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
